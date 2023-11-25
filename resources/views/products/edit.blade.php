@@ -12,8 +12,8 @@
               @csrf
               @method('PUT')
               <div class="card mt-3 p-3">
-                {{-- <h3 class="text-center">Product Edit #{{$product->id}} <img src="{{asset('products/'.$product->image)}}" class="rounded" width="70" height="70" alt=""></h3> --}}
-                <h3 class="text-center">Product Edit #{{$product->id}} <img src="/products/{{$product->image}}" class="rounded" width="70" height="70" alt=""></h3>
+                                                                        {{--  <img src="{{asset('products/'.$product->image)}}"  --}}
+                <h3 class="text-center text-muted" >Product Edit #{{$product->name}} <img src="/products/{{$product->image}}" class="rounded" width="70" height="70" alt=""></h3>
                
                 <div class="form-group">
                 <label >Name</label>
